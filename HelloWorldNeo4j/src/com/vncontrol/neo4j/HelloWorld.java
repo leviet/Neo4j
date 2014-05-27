@@ -9,7 +9,7 @@ import org.neo4j.graphdb.Transaction;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
 
 public class HelloWorld {
-	private static final String DB_PATH= "http://localhost:7474/db/data";
+	private static final String DB_PATH= "data/example";
 	private enum RelTypes implements RelationshipType{
 		 KNOWS;
 	 }
